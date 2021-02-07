@@ -43,7 +43,7 @@ function switchCards(getData) {
          checkLengthProhect++;
       }
    })
-   if (checkLengthProhect === 4) emptyProjectText.style.display = 'block';
+   if (checkLengthProhect === project.length) emptyProjectText.style.display = 'block';
    else emptyProjectText.style.display = 'none'
 }
 
