@@ -1,1 +1,516 @@
-<!DOCTYPE html><html lang="en"><head>   <meta charset="UTF-8">   <meta name="viewport" content="width=device-width, initial-scale=1.0">   <script defer src="js/script.min.js"></script>   <script src="https://kit.fontawesome.com/683289d888.js" crossorigin="anonymous"></script>   <link rel="preconnect" href="https://fonts.gstatic.com">   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"      rel="stylesheet">   <link rel="stylesheet"      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">   <link rel="stylesheet" href="css/style.min.css">   <title>Partfolio</title></head><body>   <div class="wrap-pup ">   </div>   <header class="header">      <div class="header__top">         <div class="container-xl d-flex justify-content-between">            <div class="header__logo d-flex  ">               <div class="header__img-wrapper">                  <picture><source srcset="img/logoPhoto.webp" type="image/webp"><img src="img/logoPhoto.jpg" alt="logoPhoto" class="header__logo-img"></picture>               </div>               <div class="header__person">                  <div class="header__first-name">                     Maksym                  </div>                  <div class="header__last-name">                     Hapachylo                  </div>                  <div class="header__prof">                     Front-end Developer                  </div>               </div>            </div>            <nav class="header__menu ">               <ul class="header__list ">                  <li class="header__list-item"><a class="header__list-link" href="#work">WORK</a></li>                  <li class="header__list-item"><a class="header__list-link" href="#about">ABOUT ME</a></li>                  <li class="header__list-item"><a class="header__list-link" href="#blog">BLOG</a></li>                  <li class="header__list-item--contact contact-pup open-pub">HIRE ME</li>               </ul>            </nav>            <div class="burger-menu">               <i class="fas fa-bars"></i>            </div>         </div>      </div>      </div>      <div class="header__main">         <div class="container-xl">            <div class="row header__main-content">               <div class="header__info-person col-md-7">                  <div class="header__welcome-name">                     Hello, i'm                  </div>                  <div class="header__full-name">                     Maksym Hapachylo                  </div>                  <div class="header__profesion">                     Web-developer                  </div>                  <div class="social d-flex">                     <div class=" social__item social__item--inst">                        <a class="social__link" href="https://www.instagram.com/maks909921" target="_blank">                           <i class="fab fa-instagram"></i>                        </a>                     </div>                     <div class=" social__item social__item--telegram">                        <a class="social__link" href="https://t.me/Goldenmcd" target="_blank">                           <i class="fab fa-telegram"></i>                        </a>                     </div>                     <div class=" social__item social__item--vk">                        <a class="social__link" href="https://vk.com/maximka013" target="_blank">                           <i class="fab fa-vk"></i>                        </a>                     </div>                     <div class=" social__item social__item--fb">                        <a class="social__link" href="https://www.facebook.com/profile.php?id=100004689450623"                           target="_blank">                           <i class="fab fa-facebook-f"></i>                        </a>                     </div>                  </div>                  <div class="header__btns">                     <button class="btn open-pub contact-pup">HIRE ME</button>                     <button class="btn open-pub resume-pup"> SEE MY RESUME</button>                  </div>               </div>               <div class="header__photo-person col-md-5">                  <div class="header__wrapper-photo ">                     <picture><source srcset="img/myPhoto.webp" type="image/webp"><img src="img/myPhoto.png" alt="myPhoto" class="header__main-photo"></picture>                  </div>               </div>            </div>         </div>      </div>   </header>   <main>      <section class="project" id="work">         <div class="project__filters">            <div class="container-xl">               <div class="row">                  <div class="col-12 project__filter-wrap">                     <ul class="project__filter-items d-flex justify-content-center">                        <li class="project__filter-item" data-check='on' data-filter='all'>All </li>                        <li class="project__filter-item" data-check='off' data-filter='app'>App </li>                        <li class="project__filter-item" data-check='off' data-filter='Website'>Website</li>                        <li class="project__filter-item" data-check='off' data-filter='different'>different</li>                     </ul>                  </div>               </div>            </div>         </div>         <div class="project__cards">            <div class="container-xl overflow">               <div class="project__wrap-project row-cols-lg-3 row row-cols-sm-2 row row-cols-1 ">                  <div class="empty-cards">                     there is no project                  </div>                  <div class="col project__wrap-card hideCard" data-filter='Website'>                     <div class="project__card-item">                        <div class="project__img-item">                           <a href="https://maksym220066.github.io/maximka.github.io/" class="project__card-link"                              target="_blank">                              <picture><source srcset="img/logo.webp" type="image/webp"><img class="project__img " src="img/logo.png" alt="project"></picture>                           </a>                        </div>                        <div class="project__descr">                           <h4 class="project__category">Website</h4>                           <div class="project__wrap-title d-flex justify-content-between align-items-center">                              <a href="https://maksym220066.github.io/maximka.github.io/" class="project__title-link"                                 target="_blank">                                 <h3 class="project__title">TestWork</h3>                              </a>                              <span class="project__year">2020</span>                           </div>                        </div>                     </div>                  </div>                  <div class="col project__wrap-card hideCard" data-filter='different'>                     <div class="project__card-item">                        <div class="project__img-item">                           <a href="https://maksym220066.github.io/mercury/" class="project__card-link" target="_blank">                              <picture><source srcset="img/mercury.webp" type="image/webp"><img class="project__img " src="img/mercury.png" alt="project"></picture>                           </a>                        </div>                        <div class="project__descr">                           <h4 class="project__category">different</h4>                           <div class="project__wrap-title d-flex justify-content-between align-items-center">                              <a href="https://maksym220066.github.io/mercury/" class="project__title-link"                                 target="_blank">                                 <h3 class="project__title">Mercury</h3>                              </a>                              <span class="project__year">2020</span>                           </div>                        </div>                     </div>                  </div>               </div>               <div class="project__load-btn">                  <button class="btn project__more-load btnLoad">load more work</button>               </div>            </div>         </div>      </section>      <section class="about-person" id="about">         <div class="container-xl">            <div class="row ">               <div class="col-md-6 about-person__selfy">                  <div class="about-person__wrap-img">                     <picture><source srcset="img/aboutMe.webp" type="image/webp"><img class="about-person__img" src="img/aboutMe.png" alt="selfy"></picture>                  </div>               </div>               <div class="col-md-6 about-person__info-person">                  <h2 class="about-person__top-title">ABOUT ME</h2>                  <h1 class="about-person__main-title">WHO AM I</h1>                  <p class="about-person__info-person-text">                     My name is Maksym, i'm <span class="age-person">                        21                     </span> years old. I have many different hobbies. From sports I am fond of ping-pong, volleyball,                     football. My main hobby is MMA(Mixed martial arts). I have been to various competitions, and won                     prizes place. In my                     free time i like walking in night city and                     sleeping. Sometimes i travel. I have already visited such countries as Bulgaria, Romania, Georgia,                     Poland, Egypt. And in the future, I am planning to visit even more other countries. From non-active                     hobbies, I keen on programming and playing video games. When i do something, i always have music                     playing).                  </p>                  <div class="about-person__buttons">                     <button class="btn open-pub contact-pup">HIRE ME</button>                     <button class="btn open-pub resume-pup"> SEE MY RESUME</button>                  </div>               </div>            </div>         </div>      </section>      <section class="blog" id="blog">         <div class="container-xl">            <div class="row">               <div class="col-12 blog__wrap-title">                  <h5 class="blog__main-title">                     READ ME                  </h5>                  <h2 class="blog__sub-title">                     Sometimes i post something interesting                  </h2>               </div>            </div>         </div>         <div class="container-xl">            <div class="row row-cols-lg-3 row-cols-sm-2  row-cols-1 ">               <div class="col blog__card-news hideCard">                  <div class="blog__img-item">                     <div class="blog__data">                        <div class="blog__day">24</div>                        <div class="blog__month">December</div>                     </div>                     <picture><source srcset="img/sepa.webp" type="image/webp"><img class="blog__img" src="img/sepa.jpg" alt="blog"></picture>                  </div>                  <div class="blog__info">                     <h4 class="blog__title">Sepa subject of 'significant cyber attack'</h4>                     <div class="blog__category">TECHNOLOGY</div>                     <div class="blog__more-info more-hide">                        <p class="blog__text ">                           Sepa says the attack was launched just after midnight and is affecting its communications                           systems.                           The environmental regulator is working with police and security experts to respond to what                           appears to be "complex and sophisticated criminality".                           Its contact centre is affected and it says people who need to get in touch should use Twitter                           or                           Facebook.                           The agency says its main services continue to operate but its communication into and across                           the                           organisation are "significantly impacted".                           Executive director David Pirie said the attack was launched at 00:01 on Christmas Eve.                           "We immediately enacted our robust business continuity arrangements, with our core                           regulatory,                           monitoring, flood forecasting and warning services adapting and continuing to operate," he                           said.                           "Our emergency management team is working with Scottish government, Police Scotland and the                           National Cyber Security Centre to respond to what appears to be complex and sophisticated                           criminality.                           "Whilst we continue to liaise closely with resilience partners, we're asking for those who                           wish                           to contact us right now to do so through our social media channels on <a                              class="blog__social-link"                              href="https://www.facebook.com/ScottishEnvironmentProtectionAgency">Facebook</a>                           and <a class="blog__social-link"                              href="https://twitter.com/ScottishEPA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter.</a>                           "                        </p>                     </div>                     <div class="blog__button">                        <button class="btn open-pub blog-pup">READ MORE</button>                     </div>                  </div>               </div>               <div class="col blog__card-news hideCard">                  <div class="blog__img-item">                     <div class="blog__data">                        <div class="blog__day">25</div>                        <div class="blog__month">December</div>                     </div>                     <picture><source srcset="img/top.webp" type="image/webp"><img class="blog__img" src="img/top.jpg" alt="blog"></picture>                  </div>                  <div class="blog__info">                     <h4 class="blog__title">My top 5 phones of 2020 - Maksym</h4>                     <div class="blog__category">TECHNOLOGY</div>                     <div class="blog__more-info more-hide">                        <p class="blog__text ">                           Before I lay down the list of what I think are the best phones to come out in 2020, let's get                           a few things out there. This is a subjective list and these are by no means the only devices                           I've liked throughout 2020. But the boss said 5, so there you go.                        </p>                        <p class="blog__text "> I also don't want to discredit the multitude of innovative phones to                           come out in 2020. But                           my                           choices aren't only based on innovation.</p>                        <div class="blog__samsung-galaxy-z-fold2">                           <h4 class="blog__title-phone">                              Samsung Galaxy Z Fold2                           </h4>                           <p class="blog__text ">                              I'm sure this will be a popular pick among my colleagues, but it's the Galaxy Z Fold2. You                              really need to touch the Galaxy Z Fold2 to understand just how transformative it is. It's                              unlike anything else - holding and using this device feels years too early. Yet unlike the                              first-gen Galaxy Fold, the Galaxy Z Fold2 feels ready for daily use.                           <p class="blog__text ">                              It's usable folded, thanks to a bigger outer screen, but when unfolded it becomes a lovely                              gateway to the mobile world. There's nothing else like it - a compact tablet that folds                              into                              an easy to carry phone.                           </p>                           <p class="blog__text "> And thanks to some aging and depreciation, the Galaxy Z Fold2 costs                              about as much as a                              boring                              old iPhone 12 Pro Max. If it had better cameras, I'd have bought the Fold instead of the                              boring iPhone.</p>                           </p>                           <picture><source srcset="img/galaxy.webp" type="image/webp"><img class="blog__img-phone" src="img/galaxy.jpg" alt="phone"></picture>                        </div>                        <div class="blog__huawei-mate-40-pro">                           <h4 class="blog__title-phone">                              Huawei Mate 40 Pro                           </h4>                           <p class="blog__text ">                              Because I take 90% of my personal images with my phone, I'm always interested in the best                              phone for photography. For years now I've jumped from a Google Pixel to an Apple iPhone,                              but this year the Huawei Mate 40 Pro is the clear photography king.                           <p class="blog__text ">                              You could argue that the Huawei P40 Pro has the Mate 40 Pro beat on the merit of its                              better ultrawide camera, but the Mate 40 Pro has an ultrawide selfie camera that is unique                              on such a phone. It reminds me of the ultrawide selfie shooter on the Google Pixel 3,                              which can create very interesting photos in conjunction with Night Mode. Well two years                              later the Mate 40 Pro does even better.                           </p>                           <p class="blog__text "> The Mate 40 Pro has the best cameras in both good light and in low                              light. It really does it all. Sadly it doesn't have Google Mobile Services, otherwise it                              would have been in my pocket at this very moment.</p>                           </p>                           <picture><source srcset="img/huawei.webp" type="image/webp"><img class="blog__img-phone" src="img/huawei.jpg" alt="phone"></picture>                        </div>                        <div class="blog__one-plus-8-pro">                           <h4 class="blog__title-phone">                              OnePlus 8 Pro                           </h4>                           <p class="blog__text ">                              I've always been a fan of OnePlus phones, but there was always some key feature missing in                              their latest flagship. Not anymore - the OnePlus 8 Pro has it all. OnePlus' no compromise                              8 Pro is water-tight, has wireless charging, an excellent camera and the expected lovely,                              high-refresh rate display, superior performance and reliable battery.                           <p class="blog__text ">                              And it comes in a minty Glacial Green that's easily my favorite phone color of the year.                           </p>                           <picture><source srcset="img/onePlus.webp" type="image/webp"><img class="blog__img-phone" src="img/onePlus.jpg" alt="phone"></picture>                        </div>                        <div class="blog__google-pixel-5">                           <h4 class="blog__title-phone">                              Google Pixel 5                           </h4>                           <p class="blog__text ">                              I had a tough time accepting the Google Pixel 5. It's the first flagship Pixel to forgo                              the flagship processor, which dampened my excitement for it.I had a tough time accepting                              the Google Pixel 5. It's the first flagship Pixel to forgo the flagship processor, which                              dampened my excitement for it.                           <p class="blog__text ">                              But with the Pixel 5, Google got back to covering the basics - being dependable, simple,                              yet powerful, and the best point-and-shoot camera phone around. The Pixel 5 is all of that                              and is affordable, thanks to the demotion in segment.                           </p>                           <picture><source srcset="img/google.webp" type="image/webp"><img class="blog__img-phone" src="img/google.jpg" alt="phone"></picture>                        </div>                        <div class="blog__apple-iphone-12-mini">                           <h4 class="blog__title-phone">                              Apple iPhone 12 mini                           </h4>                           <p class="blog__text ">                              At last, we come to the iPhone 12 mini. When I finally held this tiny iPhone in my hand, I                              was struck by its diminutive presence. My hands have adjusted to bigger and bigger phones                              throughout the years and this one felt like a hard reset to my senses.                           </p>                           <p class="blog__text ">                              Holding such a small and well-made phone is like a breath of fresh air and I've thought                              more than once of getting the iPhone 12 mini, if only for its size.                           </p>                           <p class="blog__text "> But it's not all about the size. The iPhone 12 mini is an excellent                              phone in every respect, and it's the cheapest iPhone 12 device you can get.</p>                           </p>                           <picture><source srcset="img/iphone.webp" type="image/webp"><img class="blog__img-phone" src="img/iphone.jpg" alt="phone"></picture>                        </div>                     </div>                     <div class="blog__button">                        <button class="btn open-pub blog-pup">READ MORE</button>                     </div>                  </div>               </div>               <div class="col blog__card-news hideCard">                  <div class="blog__img-item">                     <div class="blog__data">                        <div class="blog__day">26</div>                        <div class="blog__month">December</div>                     </div>                     <picture><source srcset="img/killNature.webp" type="image/webp"><img class="blog__img" src="img/killNature.jpg" alt="blog"></picture>                  </div>                  <div class="blog__info">                     <h4 class="blog__title">Portugal outrage after Spanish hunters massacre 500 wild animals</h4>                     <div class="blog__category">WORLD</div>                     <div class="blog__more-info more-hide">                        <p class="blog__text ">                           Portuguese officials have expressed outrage at the massacre of more than 500 deer and wild                           boar in a hunting zone in the centre of the country.                        </p>                        <p class="blog__text ">                           Environment Minister João Fernandes said the killing by 16 Spanish hunters was "vile" and an                           "environmental crime" that should be prosecuted.                        </p>                        <p class="blog__text ">                           Pictures of the slaughter were shared on social media.                        </p>                        <p class="blog__text ">                           Hunting individual animals is allowed but in this incident most of the zone's deer population                           are said to have died.                        </p>                        <p class="blog__text ">                           The killing is thought to have taken place on a farm in the Torrebela tourist hunting zone,                           near Azambuja, about 40km (24 miles) from the Portuguese capital Lisbon on 17 and 18                           December.                        </p>                     </div>                     <div class="blog__button">                        <button class="btn open-pub blog=pup">READ MORE</button>                     </div>                  </div>               </div>            </div>            <button class="blog__more-content btnLoad">               See more posts            </button>         </div>      </section>   </main>   <footer class="footer">      <div class="container-xl">         <div class="row align-items-center">            <div class="col-md-6">               <div class="social d-flex">                  <p class="footer__privacy">                     © 2020 UI43 by Maksym                  </p>                  <div class=" social__item social__item--inst">                     <a class="social__link" href="https://www.instagram.com/maks909921" target="_blank">                        <i class="fab fa-instagram"></i>                     </a>                  </div>                  <div class=" social__item social__item--telegram">                     <a class="social__link" href="https://t.me/Goldenmcd" target="_blank">                        <i class="fab fa-telegram"></i>                     </a>                  </div>                  <div class=" social__item social__item--vk">                     <a class="social__link" href="https://vk.com/maximka013" target="_blank">                        <i class="fab fa-vk"></i>                     </a>                  </div>                  <div class=" social__item social__item--fb">                     <a class="social__link" href="https://www.facebook.com/profile.php?id=100004689450623"                        target="_blank">                        <i class="fab fa-facebook-f"></i>                     </a>                  </div>               </div>            </div>            <div class="col-lg-5 col-md-6 ml-auto footer__wrap-menu">               <nav class="footer__nav-bar">                  <ul class="footer__menu d-flex justify-content-md-end justify-content-center">                     <li class="footer__item"><a href="#work" class="footer__item-link">Work</a></li>                     <li class="footer__item"><a href="#about" class="footer__item-link">About me</a></li>                     <li class="footer__item"><a href="#blog" class="footer__item-link">Blog</a></li>                     <li class="footer__item contact-pup open-pub"><a href="/" class="footer__item-link">Contact</a>                     </li>                     <li class="footer__item contact-pup open-pub">HIRE ME</li>                  </ul>               </nav>            </div>         </div>      </div>   </footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script defer src="js/script.min.js"></script>
+   <script src="https://kit.fontawesome.com/683289d888.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+   <title>Partfolio</title>
+</head>
+
+<body>
+
+   <div class="wrap-pup ">
+
+   </div>
+
+   <header class="header">
+      <div class="header__top">
+         <div class="container-xl d-flex justify-content-between">
+            <div class="header__logo d-flex  ">
+               <div class="header__img-wrapper">
+                  <picture><source srcset="img/logoPhoto.webp" type="image/webp"><img src="img/logoPhoto.jpg" alt="logoPhoto" class="header__logo-img"></picture>
+               </div>
+               <div class="header__person">
+                  <div class="header__first-name">
+                     Maksym
+                  </div>
+                  <div class="header__last-name">
+                     Hapachylo
+                  </div>
+                  <div class="header__prof">
+                     Front-end Developer
+                  </div>
+               </div>
+            </div>
+            <nav class="header__menu ">
+               <ul class="header__list ">
+                  <li class="header__list-item"><a class="header__list-link" href="#work">WORK</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#about">ABOUT ME</a></li>
+                  <li class="header__list-item"><a class="header__list-link" href="#blog">BLOG</a></li>
+                  <li class="header__list-item--contact contact-pup open-pub">HIRE ME</li>
+               </ul>
+            </nav>
+            <div class="burger-menu">
+               <i class="fas fa-bars"></i>
+            </div>
+         </div>
+      </div>
+      <div class="header__main">
+         <div class="container-xl">
+            <div class="row header__main-content">
+               <div class="header__info-person col-md-7">
+                  <div class="header__welcome-name">
+                     Hello, i'm
+                  </div>
+                  <div class="header__full-name">
+                     Maksym Hapachylo
+                  </div>
+                  <div class="header__profesion">
+                     Web-developer
+                  </div>
+                  <div class="social d-flex">
+                     <div class=" social__item social__item--inst">
+                        <a class="social__link" href="https://www.instagram.com/maks909921" target="_blank">
+                           <i class="fab fa-instagram"></i>
+                        </a>
+                     </div>
+                     <div class=" social__item social__item--telegram">
+                        <a class="social__link" href="https://t.me/Goldenmcd" target="_blank">
+                           <i class="fab fa-telegram"></i>
+                        </a>
+                     </div>
+                     <div class=" social__item social__item--vk">
+                        <a class="social__link" href="https://vk.com/maximka013" target="_blank">
+                           <i class="fab fa-vk"></i>
+                        </a>
+                     </div>
+                     <div class=" social__item social__item--fb">
+                        <a class="social__link" href="https://www.facebook.com/profile.php?id=100004689450623"
+                           target="_blank">
+                           <i class="fab fa-facebook-f"></i>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="header__btns">
+                     <button class="btn open-pub contact-pup">HIRE ME</button>
+                     <button class="btn open-pub resume-pup"> SEE MY RESUME</button>
+                  </div>
+               </div>
+               <div class="header__photo-person col-md-5">
+                  <div class="header__wrapper-photo ">
+                     <picture><source srcset="img/myPhoto.webp" type="image/webp"><img src="img/myPhoto.png" alt="myPhoto" class="header__main-photo"></picture>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <section class="project" id="work">
+         <div class="project__filters">
+            <div class="container-xl">
+               <div class="row">
+                  <div class="col-12 project__filter-wrap">
+                     <ul class="project__filter-items d-flex justify-content-center">
+                        <li class="project__filter-item" data-check='on' data-filter='all'>All </li>
+                        <li class="project__filter-item" data-check='off' data-filter='app'>App </li>
+                        <li class="project__filter-item" data-check='off' data-filter='Website'>Website</li>
+                        <li class="project__filter-item" data-check='off' data-filter='different'>different</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="project__cards">
+            <div class="container-xl overflow">
+               <div class="project__wrap-project row-cols-lg-3 row row-cols-sm-2 row row-cols-1 ">
+                  <div class="empty-cards">
+                     there is no project
+                  </div>
+                  <div class="col project__wrap-card hideCard" data-filter='Website'>
+                     <div class="project__card-item">
+                        <div class="project__img-item">
+                           <a href="https://maksym220066.github.io/maximka.github.io/" class="project__card-link"
+                              target="_blank">
+                              <picture><source srcset="img/logo.webp" type="image/webp"><img class="project__img " src="img/logo.png" alt="project"></picture>
+                           </a>
+                        </div>
+                        <div class="project__descr">
+                           <h4 class="project__category">Website</h4>
+                           <div class="project__wrap-title d-flex justify-content-between align-items-center">
+                              <a href="https://maksym220066.github.io/maximka.github.io/" class="project__title-link"
+                                 target="_blank">
+                                 <h3 class="project__title">TestWork</h3>
+                              </a>
+                              <span class="project__year">2020</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col project__wrap-card hideCard" data-filter='different'>
+                     <div class="project__card-item">
+                        <div class="project__img-item">
+                           <a href="https://maksym220066.github.io/mercury/" class="project__card-link" target="_blank">
+                              <picture><source srcset="img/mercury.webp" type="image/webp"><img class="project__img " src="img/mercury.png" alt="project"></picture>
+                           </a>
+                        </div>
+                        <div class="project__descr">
+                           <h4 class="project__category">different</h4>
+                           <div class="project__wrap-title d-flex justify-content-between align-items-center">
+                              <a href="https://maksym220066.github.io/mercury/" class="project__title-link"
+                                 target="_blank">
+                                 <h3 class="project__title">Mercury</h3>
+                              </a>
+                              <span class="project__year">2020</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+
+               <div class="project__load-btn">
+                  <button class="btn project__more-load btnLoad">load more work</button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="about-person" id="about">
+         <div class="container-xl">
+            <div class="row ">
+               <div class="col-md-6 about-person__selfy">
+                  <div class="about-person__wrap-img">
+                     <picture><source srcset="img/aboutMe.webp" type="image/webp"><img class="about-person__img" src="img/aboutMe.png" alt="selfy"></picture>
+                  </div>
+               </div>
+               <div class="col-md-6 about-person__info-person">
+                  <h2 class="about-person__top-title">ABOUT ME</h2>
+                  <h1 class="about-person__main-title">WHO AM I</h1>
+                  <p class="about-person__info-person-text">
+                     My name is Maksym, i'm <span class="age-person">
+                        21
+                     </span> years old. I have many different hobbies. From sports I am fond of ping-pong, volleyball,
+                     football. My main hobby is MMA(Mixed martial arts). I have been to various competitions, and won
+                     prizes place. In my
+                     free time i like walking in night city and
+                     sleeping. Sometimes i travel. I have already visited such countries as Bulgaria, Romania, Georgia,
+                     Poland, Egypt. And in the future, I am planning to visit even more other countries. From non-active
+                     hobbies, I keen on programming and playing video games. When i do something, i always have music
+                     playing).
+
+                  </p>
+                  <div class="about-person__buttons">
+                     <button class="btn open-pub contact-pup">HIRE ME</button>
+                     <button class="btn open-pub resume-pup"> SEE MY RESUME</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="blog" id="blog">
+         <div class="container-xl">
+            <div class="row">
+               <div class="col-12 blog__wrap-title">
+                  <h5 class="blog__main-title">
+                     READ ME
+                  </h5>
+                  <h2 class="blog__sub-title">
+                     Sometimes i post something interesting
+                  </h2>
+               </div>
+            </div>
+         </div>
+         <div class="container-xl">
+            <div class="row row-cols-lg-3 row-cols-sm-2  row-cols-1 ">
+               <div class="col blog__card-news hideCard">
+                  <div class="blog__img-item">
+                     <div class="blog__data">
+                        <div class="blog__day">24</div>
+                        <div class="blog__month">December</div>
+                     </div>
+                     <picture><source srcset="img/sepa.webp" type="image/webp"><img class="blog__img" src="img/sepa.jpg" alt="blog"></picture>
+                  </div>
+                  <div class="blog__info">
+                     <h4 class="blog__title">Sepa subject of 'significant cyber attack'</h4>
+                     <div class="blog__category">TECHNOLOGY</div>
+                     <div class="blog__more-info more-hide">
+                        <p class="blog__text ">
+                           Sepa says the attack was launched just after midnight and is affecting its communications
+                           systems.
+
+                           The environmental regulator is working with police and security experts to respond to what
+                           appears to be "complex and sophisticated criminality".
+
+                           Its contact centre is affected and it says people who need to get in touch should use Twitter
+                           or
+                           Facebook.
+
+                           The agency says its main services continue to operate but its communication into and across
+                           the
+                           organisation are "significantly impacted".
+
+                           Executive director David Pirie said the attack was launched at 00:01 on Christmas Eve.
+
+                           "We immediately enacted our robust business continuity arrangements, with our core
+                           regulatory,
+                           monitoring, flood forecasting and warning services adapting and continuing to operate," he
+                           said.
+
+                           "Our emergency management team is working with Scottish government, Police Scotland and the
+                           National Cyber Security Centre to respond to what appears to be complex and sophisticated
+                           criminality.
+
+                           "Whilst we continue to liaise closely with resilience partners, we're asking for those who
+                           wish
+                           to contact us right now to do so through our social media channels on <a
+                              class="blog__social-link"
+                              href="https://www.facebook.com/ScottishEnvironmentProtectionAgency">Facebook</a>
+                           and <a class="blog__social-link"
+                              href="https://twitter.com/ScottishEPA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter.</a>
+                           "
+                        </p>
+                     </div>
+                     <div class="blog__button">
+                        <button class="btn open-pub blog-pup">READ MORE</button>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col blog__card-news hideCard">
+                  <div class="blog__img-item">
+                     <div class="blog__data">
+                        <div class="blog__day">25</div>
+                        <div class="blog__month">December</div>
+                     </div>
+                     <picture><source srcset="img/top.webp" type="image/webp"><img class="blog__img" src="img/top.jpg" alt="blog"></picture>
+                  </div>
+                  <div class="blog__info">
+                     <h4 class="blog__title">My top 5 phones of 2020 - Maksym</h4>
+                     <div class="blog__category">TECHNOLOGY</div>
+                     <div class="blog__more-info more-hide">
+                        <p class="blog__text ">
+                           Before I lay down the list of what I think are the best phones to come out in 2020, let's get
+                           a few things out there. This is a subjective list and these are by no means the only devices
+                           I've liked throughout 2020. But the boss said 5, so there you go.
+                        </p>
+
+                        <p class="blog__text "> I also don't want to discredit the multitude of innovative phones to
+                           come out in 2020. But
+                           my
+                           choices aren't only based on innovation.</p>
+                        <div class="blog__samsung-galaxy-z-fold2">
+                           <h4 class="blog__title-phone">
+                              Samsung Galaxy Z Fold2
+                           </h4>
+
+                           <p class="blog__text ">
+                              I'm sure this will be a popular pick among my colleagues, but it's the Galaxy Z Fold2. You
+                              really need to touch the Galaxy Z Fold2 to understand just how transformative it is. It's
+                              unlike anything else - holding and using this device feels years too early. Yet unlike the
+                              first-gen Galaxy Fold, the Galaxy Z Fold2 feels ready for daily use.
+
+                           <p class="blog__text ">
+                              It's usable folded, thanks to a bigger outer screen, but when unfolded it becomes a lovely
+                              gateway to the mobile world. There's nothing else like it - a compact tablet that folds
+                              into
+                              an easy to carry phone.
+                           </p>
+
+                           <p class="blog__text "> And thanks to some aging and depreciation, the Galaxy Z Fold2 costs
+                              about as much as a
+                              boring
+                              old iPhone 12 Pro Max. If it had better cameras, I'd have bought the Fold instead of the
+                              boring iPhone.</p>
+                         
+                           <picture><source srcset="img/galaxy.webp" type="image/webp"><img class="blog__img-phone" src="img/galaxy.jpg" alt="phone"></picture>
+                        </div>
+
+                        <div class="blog__huawei-mate-40-pro">
+                           <h4 class="blog__title-phone">
+                              Huawei Mate 40 Pro
+                           </h4>
+
+                           <p class="blog__text ">
+                              Because I take 90% of my personal images with my phone, I'm always interested in the best
+                              phone for photography. For years now I've jumped from a Google Pixel to an Apple iPhone,
+                              but this year the Huawei Mate 40 Pro is the clear photography king.
+
+                           <p class="blog__text ">
+                              You could argue that the Huawei P40 Pro has the Mate 40 Pro beat on the merit of its
+                              better ultrawide camera, but the Mate 40 Pro has an ultrawide selfie camera that is unique
+                              on such a phone. It reminds me of the ultrawide selfie shooter on the Google Pixel 3,
+                              which can create very interesting photos in conjunction with Night Mode. Well two years
+                              later the Mate 40 Pro does even better.
+                           </p>
+
+                           <p class="blog__text "> The Mate 40 Pro has the best cameras in both good light and in low
+                              light. It really does it all. Sadly it doesn't have Google Mobile Services, otherwise it
+                              would have been in my pocket at this very moment.</p>
+                         
+                           <picture><source srcset="img/huawei.webp" type="image/webp"><img class="blog__img-phone" src="img/huawei.jpg" alt="phone"></picture>
+                        </div>
+
+                        <div class="blog__one-plus-8-pro">
+                           <h4 class="blog__title-phone">
+                              OnePlus 8 Pro
+                           </h4>
+
+                           <p class="blog__text ">
+                              I've always been a fan of OnePlus phones, but there was always some key feature missing in
+                              their latest flagship. Not anymore - the OnePlus 8 Pro has it all. OnePlus' no compromise
+                              8 Pro is water-tight, has wireless charging, an excellent camera and the expected lovely,
+                              high-refresh rate display, superior performance and reliable battery.
+
+                           <p class="blog__text ">
+                              And it comes in a minty Glacial Green that's easily my favorite phone color of the year.
+                           </p>
+                           <picture><source srcset="img/onePlus.webp" type="image/webp"><img class="blog__img-phone" src="img/onePlus.jpg" alt="phone"></picture>
+                        </div>
+
+                        <div class="blog__google-pixel-5">
+                           <h4 class="blog__title-phone">
+                              Google Pixel 5
+                           </h4>
+
+                           <p class="blog__text ">
+                              I had a tough time accepting the Google Pixel 5. It's the first flagship Pixel to forgo
+                              the flagship processor, which dampened my excitement for it.I had a tough time accepting
+                              the Google Pixel 5. It's the first flagship Pixel to forgo the flagship processor, which
+                              dampened my excitement for it.
+                           <p class="blog__text ">
+                              But with the Pixel 5, Google got back to covering the basics - being dependable, simple,
+                              yet powerful, and the best point-and-shoot camera phone around. The Pixel 5 is all of that
+                              and is affordable, thanks to the demotion in segment.
+                           </p>
+                           <picture><source srcset="img/google.webp" type="image/webp"><img class="blog__img-phone" src="img/google.jpg" alt="phone"></picture>
+                        </div>
+
+                        <div class="blog__apple-iphone-12-mini">
+                           <h4 class="blog__title-phone">
+                              Apple iPhone 12 mini
+                           </h4>
+                           <p class="blog__text ">
+                              At last, we come to the iPhone 12 mini. When I finally held this tiny iPhone in my hand, I
+                              was struck by its diminutive presence. My hands have adjusted to bigger and bigger phones
+                              throughout the years and this one felt like a hard reset to my senses.
+                           </p>
+                           <p class="blog__text ">
+                              Holding such a small and well-made phone is like a breath of fresh air and I've thought
+                              more than once of getting the iPhone 12 mini, if only for its size.
+                           </p>
+
+                           <p class="blog__text "> But it's not all about the size. The iPhone 12 mini is an excellent
+                              phone in every respect, and it's the cheapest iPhone 12 device you can get.</p>
+                           
+                           <picture><source srcset="img/iphone.webp" type="image/webp"><img class="blog__img-phone" src="img/iphone.jpg" alt="phone"></picture>
+                        </div>
+
+                     </div>
+                     <div class="blog__button">
+                        <button class="btn open-pub blog-pup">READ MORE</button>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col blog__card-news hideCard">
+                  <div class="blog__img-item">
+                     <div class="blog__data">
+                        <div class="blog__day">26</div>
+                        <div class="blog__month">December</div>
+                     </div>
+                     <picture><source srcset="img/killNature.webp" type="image/webp"><img class="blog__img" src="img/killNature.jpg" alt="blog"></picture>
+                  </div>
+                  <div class="blog__info">
+                     <h4 class="blog__title">Portugal outrage after Spanish hunters massacre 500 wild animals</h4>
+                     <div class="blog__category">WORLD</div>
+                     <div class="blog__more-info more-hide">
+                        <p class="blog__text ">
+                           Portuguese officials have expressed outrage at the massacre of more than 500 deer and wild
+                           boar in a hunting zone in the centre of the country.
+                        </p>
+                        <p class="blog__text ">
+                           Environment Minister João Fernandes said the killing by 16 Spanish hunters was "vile" and an
+                           "environmental crime" that should be prosecuted.
+                        </p>
+                        <p class="blog__text ">
+                           Pictures of the slaughter were shared on social media.
+                        </p>
+                        <p class="blog__text ">
+                           Hunting individual animals is allowed but in this incident most of the zone's deer population
+                           are said to have died.
+                        </p>
+                        <p class="blog__text ">
+                           The killing is thought to have taken place on a farm in the Torrebela tourist hunting zone,
+                           near Azambuja, about 40km (24 miles) from the Portuguese capital Lisbon on 17 and 18
+                           December.
+                        </p>
+                     </div>
+                     <div class="blog__button">
+                        <button class="btn open-pub blog=pup">READ MORE</button>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            <button class="blog__more-content btnLoad">
+               See more posts
+            </button>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="container-xl">
+         <div class="row align-items-center">
+            <div class="col-md-6">
+               <div class="social d-flex">
+                  <p class="footer__privacy">
+                     © 2020 UI43 by Maksym
+                  </p>
+
+                  <div class=" social__item social__item--inst">
+                     <a class="social__link" href="https://www.instagram.com/maks909921" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                     </a>
+                  </div>
+                  <div class=" social__item social__item--telegram">
+                     <a class="social__link" href="https://t.me/Goldenmcd" target="_blank">
+                        <i class="fab fa-telegram"></i>
+                     </a>
+                  </div>
+                  <div class=" social__item social__item--vk">
+                     <a class="social__link" href="https://vk.com/maximka013" target="_blank">
+                        <i class="fab fa-vk"></i>
+                     </a>
+                  </div>
+                  <div class=" social__item social__item--fb">
+                     <a class="social__link" href="https://www.facebook.com/profile.php?id=100004689450623"
+                        target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-5 col-md-6 ml-auto footer__wrap-menu">
+               <nav class="footer__nav-bar">
+                  <ul class="footer__menu d-flex justify-content-md-end justify-content-center">
+                     <li class="footer__item"><a href="#work" class="footer__item-link">Work</a></li>
+                     <li class="footer__item"><a href="#about" class="footer__item-link">About me</a></li>
+                     <li class="footer__item"><a href="#blog" class="footer__item-link">Blog</a></li>
+                     <li class="footer__item contact-pup open-pub"><a href="/" class="footer__item-link">Contact</a>
+                     </li>
+                     <li class="footer__item contact-pup open-pub">HIRE ME</li>
+                  </ul>
+               </nav>
+            </div>
+
+         </div>
+      </div>
+   </footer>
+
+
+</body>
+
+</html>
