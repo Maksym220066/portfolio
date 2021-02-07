@@ -273,9 +273,8 @@ function open() {
 
 pupMenu.addEventListener('click', e => {
    if (e.target === pupMenu) {
-      pupMenu.classList.remove('show-wrap')
-      pupMenu.children[0].classList.remove('showen')
-      pupMenu.children[0].classList.add('hiden')
+      pupMenu.classList.remove('show-wrap');
+      pupMenu.children[0].classList.add('hiden');
       document.body.classList.remove('modal-hiden');
       hideHtml()
    } else if (e.target.classList.contains('contact-menu__send')) {
@@ -304,8 +303,10 @@ function sendRequest(e) {
    fetch(`https://api.telegram.org/bot${token}/sendMessage?chat_id=${id}&parse_mode=html&text=${txt}`, {
       method: 'POST',
    });
-   pupMenu.classList.add('hide');
-   pupMenu.innerHTML = '';
+   pupMenu.classList.remove('show-wrap')
+   pupMenu.children[0].classList.add('hiden')
+   document.body.classList.remove('modal-hiden');
+   hideHtml()
    alertRequest()
 }
 
