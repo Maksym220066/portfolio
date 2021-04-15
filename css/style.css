@@ -376,7 +376,7 @@ body {
 }
 
 .about-person__img {
-  height: 100%;
+  height: 600px;
   position: relative;
   z-index: 2;
   max-width: 100%;
