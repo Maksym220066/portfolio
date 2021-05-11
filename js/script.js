@@ -330,7 +330,7 @@ function printdiv() {
 
 //download the resume
 function downloadResume() {
-   window.location.href = "https://drive.google.com/u/0/uc?id=1FP4HP-IrtSDpEsD65bHf_tECY1UjgaJE&export=download";
+   window.location.href = "https://drive.google.com/u/0/uc?id=1-lHK7gtJXtmvmsPFH72MaDmYe25fqUwe&export=download";
    return false;
 }
 
