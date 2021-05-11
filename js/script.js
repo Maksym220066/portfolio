@@ -227,7 +227,7 @@ openPub.forEach(e => {
                      <div class="resume__name-skill resume__name-skill-html">HTML</div>
                      <div class="resume__name-skill resume__name-skill-css">CSS</div>
                      <div class="resume__name-skill resume__name-skill-js">JavaScript</div>
-                     <div class="resume__name-skill resume__name-skill-angular">Angular</div>
+                     <div class="resume__name-skill resume__name-skill-angular">React.js</div>
                      <div class="resume__name-skill resume__name-skill-jq">jQuery</div>
                      <div class="resume__name-skill resume__name-skill-sql">SQL</div>
                   </div>
